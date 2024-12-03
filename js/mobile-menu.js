@@ -52,6 +52,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+function toggleAnswer(element) {
+  const answer = element.nextElementSibling;
+  const buttonImg = element.querySelector(".toggle-button img"); // Знайти <img> всередині кнопки
+
+  if (answer.style.display === "none" || answer.style.display === "") {
+    answer.style.display = "block";
+    buttonImg.src = "/img/faq/Frame 31.png"; // Змінити на іконку вгору
+  } else {
+    answer.style.display = "none";
+    buttonImg.src = "/img/faq/Frame 30.png"; // Змінити на іконку вниз
+  }
+}
 
 
 
