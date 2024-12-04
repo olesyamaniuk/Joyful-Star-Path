@@ -13,6 +13,8 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: 'linear',
+    prevArrow: '.reviews__list-left',
+    nextArrow: '.reviews__list-right',
   });
 });
 $(function () {
@@ -27,6 +29,8 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: 'linear',
+    prevArrow: '.gallery__list-left',
+    nextArrow: '.gallery__list-right',
   });
 });
 

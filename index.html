@@ -38,22 +38,31 @@
     </div>
     <header class="header">
       <div class="header__background"></div>
+
       <nav class="navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
-            <a href="/#" class="navigation__link">Home</a>
+            <a href="/#" class="navigation__link navigation-img"
+              ><img src="/img/header/Frame 16.png" alt=""
+            /></a>
           </li>
           <li class="navigation__item">
-            <a href="/#advantages" class="navigation__link">Advantages</a>
+            <a href="/#" class="navigation__link">Home</a>
           </li>
           <li class="navigation__item">
             <a href="/#benefits" class="navigation__link">Benefits</a>
           </li>
           <li class="navigation__item">
-            <a href="/#reviews" class="navigation__link">Reviews</a>
+            <a href="/#about" class="navigation__link">About This Agency</a>
           </li>
           <li class="navigation__item">
-            <a href="/#about" class="navigation__link">About us</a>
+            <a href="/#advantages" class="navigation__link">How We Work</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#faq" class="navigation__link">FAQ</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/#reviews" class="navigation__link">Reviews</a>
           </li>
 
           <li class="navigation__item">
@@ -77,13 +86,13 @@
           <button type="button" class="header__icon-button" data-menu-button>
             <img
               class="header__icon header__icon--menu"
-              src="image/header/menu.png"
+              src="img/header/menu.png"
               alt=""
             />
 
             <img
               class="header__icon header__icon--close"
-              src="image/header/menu (1).png"
+              src="img/header/menu (1).png"
               alt=""
             />
           </button>
@@ -125,13 +134,13 @@
             </p>
           </li>
           <li class="benefits-item">
-            <p class="benefits-text-bold">Experience</p>
+            <p class="benefits-text-bold">Company Services</p>
             <p class="benefits-text-bottom">
               Branding, web development, marketing, and more.
             </p>
           </li>
           <li class="benefits-item">
-            <p class="benefits-text-bold">Experience</p>
+            <p class="benefits-text-bold">Measurable Results</p>
             <p class="benefits-text-bottom">
               Proven strategies that drive growth and ROI.
             </p>
@@ -207,241 +216,322 @@
         <div class="advantages-title-texts">
           <h2 class="about-title advantages-title">FAQ</h2>
         </div>
-
-        <div class="faq-container">
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>What services do you offer?</span>
-              <button class="toggle-button">
-                <img
-                  src="/img/faq/Frame 30.png"
-                  alt="Toggle"
-                  width="40"
-                  height="40"
-                />
-              </button>
+        <div class="faq-container-top">
+          <div class="faq-container">
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>What services do you offer?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/img/faq/Frame 30.png"
+                    alt="Toggle"
+                    width="40"
+                    height="40"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                We provide branding, web development, digital marketing, SEO,
+                and more.
+              </div>
             </div>
-            <div class="faq-answer">
-              We provide branding, web development, digital marketing, SEO, and
-              more.
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Can you handle both small and large projects? </span>
+                <button class="toggle-button">
+                  <img
+                    src="/img/faq/Frame 30.png"
+                    alt="Toggle"
+                    width="40"
+                    height="40"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Yes, we tailor our solutions to fit businesses of all sizes.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>How do you measure success?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/img/faq/Frame 30.png"
+                    alt="Toggle"
+                    width="40"
+                    height="40"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Through data analytics, performance metrics, and client
+                satisfaction.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>Do you offer ongoing support?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/img/faq/Frame 30.png"
+                    alt="Toggle"
+                    width="40"
+                    height="40"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Absolutely! We provide maintenance, updates, and optimization
+                services.
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-question" onclick="toggleAnswer(this)">
+                <span>How can I get started?</span>
+                <button class="toggle-button">
+                  <img
+                    src="/img/faq/Frame 30.png"
+                    alt="Toggle"
+                    width="40"
+                    height="40"
+                  />
+                </button>
+              </div>
+              <div class="faq-answer">
+                Contact us via the form below or schedule a free consultation.
+              </div>
             </div>
           </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Can you handle both small and large projects? </span>
-              <button class="toggle-button">
-                <img
-                  src="/img/faq/Frame 30.png"
-                  alt="Toggle"
-                  width="40"
-                  height="40"
-                />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Yes, we tailor our solutions to fit businesses of all sizes.
-            </div>
+          <div class="faq-img">
+            <img src="/img/faq/13407 1.png" alt="" />
           </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How do you measure success?</span>
-              <button class="toggle-button">
-                <img
-                  src="/img/faq/Frame 30.png"
-                  alt="Toggle"
-                  width="40"
-                  height="40"
-                />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Through data analytics, performance metrics, and client
-              satisfaction.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>Do you offer ongoing support?</span>
-              <button class="toggle-button">
-                <img
-                  src="/img/faq/Frame 30.png"
-                  alt="Toggle"
-                  width="40"
-                  height="40"
-                />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Absolutely! We provide maintenance, updates, and optimization
-              services.
-            </div>
-          </div>
-          <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-              <span>How can I get started?</span>
-              <button class="toggle-button">
-                <img
-                  src="/img/faq/Frame 30.png"
-                  alt="Toggle"
-                  width="40"
-                  height="40"
-                />
-              </button>
-            </div>
-            <div class="faq-answer">
-              Contact us via the form below or schedule a free consultation.
-            </div>
-          </div>
-        </div>
-        <div class="faq-img">
-          <img src="/img/faq/13407 1.png" alt="" />
         </div>
       </section>
       <section class="reviews" id="reviews">
-        <div class="advantages-title-texts">
-          <h2 class="advantages-title reviews-title-text">Reviews</h2>
+        <div class="reviews-title-texts">
+          <h2 class="about-title advantages-title">Reviews</h2>
+          <div class="gallery-button-container gallery-button-container-desk">
+            <button class="gallery-button reviews__list-left">
+              <img
+                class="gallery-button-icon"
+                src="img/reviews/left.png"
+                alt=""
+              />
+            </button>
+            <button class="gallery-button reviews__list-right">
+              <img
+                class="gallery-button-icon gallery-button-icon-right"
+                src="img/reviews/left.png"
+                alt=""
+              />
+            </button>
+          </div>
         </div>
 
         <ul class="reviews-list">
           <li>
             <div class="reviews-item">
-              <img
-                class="reviews-img"
-                src="/image/reviews/image (5).png"
-                alt=""
-              />
               <div class="reviews-item-two">
-                <p class="reviews-text">InnovativeCorp</p>
-                <p class="reviews-text-bottom">
-                  "TopQuest helped us revamp our online presence and boost our
-                  sales. Amazing work!"
-                </p>
+                <img class="reviews-img" src="/img/reviews/image.png" alt="" />
+
+                <p class="reviews-text">DigitalPro</p>
               </div>
+              <p class="reviews-text-bottom">
+                "Joyful Star Path transformed our online presence. Their
+                expertise is unmatched!"
+              </p>
             </div>
           </li>
           <li>
             <div class="reviews-item">
-              <img
-                class="reviews-img"
-                src="/image/reviews/image (6).png"
-                alt=""
-              />
               <div class="reviews-item-two">
+                <img
+                  class="reviews-img"
+                  src="/img/reviews/image (1).png"
+                  alt=""
+                />
+
+                <p class="reviews-text">BrandBuilder</p>
+              </div>
+              <p class="reviews-text-bottom">
+                "Outstanding team with creative solutions. They delivered beyond
+                expectations."
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="reviews-item">
+              <div class="reviews-item-two">
+                <img
+                  class="reviews-img"
+                  src="/img/reviews/image (2).png"
+                  alt=""
+                />
+
                 <p class="reviews-text">GrowthMarketer</p>
-                <p class="reviews-text-bottom">
-                  "Their SEO strategies transformed our traffic. Highly
-                  recommend!"
-                </p>
               </div>
+              <p class="reviews-text-bottom">
+                "Their strategies brought measurable results. Highly recommend
+                their services!"
+              </p>
             </div>
           </li>
           <li>
             <div class="reviews-item">
-              <img
-                class="reviews-img"
-                src="/image/reviews/image (7).png"
-                alt=""
-              />
               <div class="reviews-item-two">
-                <p class="reviews-text">StartupGuru</p>
-                <p class="reviews-text-bottom">
-                  "Great team, outstanding creativity, and excellent results. A
-                  pleasure to work with!"
-                </p>
+                <img
+                  class="reviews-img"
+                  src="/img/reviews/image (3).png"
+                  alt=""
+                />
+
+                <p class="reviews-text">VisionaryTech</p>
               </div>
+              <p class="reviews-text-bottom">
+                "Professional, reliable, and innovative. A great partner for any
+                digital project."
+              </p>
             </div>
           </li>
           <li>
             <div class="reviews-item">
-              <img
-                class="reviews-img"
-                src="/image/reviews/image (8).png"
-                alt=""
-              />
               <div class="reviews-item-two">
-                <p class="reviews-text">DigitalVision</p>
-                <p class="reviews-text-bottom">
-                  "TopQuest's approach is fresh and innovative. They truly
-                  understand our needs."
-                </p>
+                <img
+                  class="reviews-img"
+                  src="/img/reviews/image (4).png"
+                  alt=""
+                />
+
+                <p class="reviews-text">StartupHero</p>
               </div>
-            </div>
-          </li>
-          <li>
-            <div class="reviews-item">
-              <img
-                class="reviews-img"
-                src="/image/reviews/image (9).png"
-                alt=""
-              />
-              <div class="reviews-item-two">
-                <p class="reviews-text">NextGenTech</p>
-                <p class="reviews-text-bottom">
-                  "Professional and reliable agency. They delivered beyond our
-                  expectations!"
-                </p>
-              </div>
+              <p class="reviews-text-bottom">
+                "They helped us launch our brand and grow our business. Truly
+                exceptional work!"
+              </p>
             </div>
           </li>
         </ul>
+        <div class="gallery-button-container gallery-button-container-phone">
+          <button class="gallery-button reviews__list-left">
+            <img
+              class="gallery-button-icon"
+              src="img/reviews/left.png"
+              alt=""
+            />
+          </button>
+          <button class="gallery-button reviews__list-right">
+            <img
+              class="gallery-button-icon gallery-button-icon-right"
+              src="img/reviews/left.png"
+              alt=""
+            />
+          </button>
+        </div>
       </section>
 
       <section class="gallery" id="gallery">
         <div class="gallery-container">
-          <div class="advantages-title-texts">
-            <h2 class="advantages-title reviews-title-text">Gallery</h2>
+          <div class="reviews-title-texts">
+            <h2 class="about-title advantages-title">Gallery</h2>
+            <div class="gallery-button-container gallery-button-container-desk">
+              <button class="gallery-button gallery__list-left">
+                <img
+                  class="gallery-button-icon"
+                  src="img/reviews/left.png"
+                  alt=""
+                />
+              </button>
+              <button class="gallery-button gallery__list-right">
+                <img
+                  class="gallery-button-icon gallery-button-icon-right"
+                  src="img/reviews/left.png"
+                  alt=""
+                />
+              </button>
+            </div>
           </div>
 
           <ul class="gallery-list">
             <li class="gallery-item gallery-item-two">
               <img
                 class="gallery-item-img"
-                src="/image/gallery/image (13).png"
+                src="/img/gallery/image (5).png"
                 alt=""
               />
             </li>
             <li class="gallery-item gallery-item-two">
               <img
                 class="gallery-item-img"
-                src="/image/gallery/image (14).png"
+                src="/img/gallery/image (6).png"
                 alt=""
               />
             </li>
             <li class="gallery-item gallery-item-two">
               <img
                 class="gallery-item-img"
-                src="/image/gallery/Frame 74.png"
+                src="/img/gallery/image (7).png"
                 alt=""
               />
             </li>
           </ul>
+          <div class="gallery-button-container gallery-button-container-phone">
+            <button class="gallery-button gallery__list-left">
+              <img
+                class="gallery-button-icon"
+                src="img/reviews/left.png"
+                alt=""
+              />
+            </button>
+            <button class="gallery-button gallery__list-right">
+              <img
+                class="gallery-button-icon gallery-button-icon-right"
+                src="img/reviews/left.png"
+                alt=""
+              />
+            </button>
+          </div>
         </div>
       </section>
 
       <section class="contacts" id="contacts">
-        <div class="contacts-image"></div>
         <div class="contacts-container">
-          <h2 class="advantages-title">Contact us</h2>
-
           <div class="form">
-            <p class="form-title-text-one">Get in Touch</p>
-            <p class="form-title-text-two">
-              "Let’s discuss your project and how we can help you succeed!"
+            <h2 class="about-title contacts-title">Get in Touch</h2>
+            <p class="form-title-text-one">
+              "Let's discuss your project and how we can help you succeed!"
             </p>
+
             <div class="contacts-form-top">
+              <p class="contacts-form-text">Name</p>
               <input type="text" placeholder="Name" class="form-input" />
+              <p class="contacts-form-text">Email Address</p>
               <input
                 type="text"
-                placeholder="Email Address"
+                placeholder="jhondoe@innovatex.com"
                 class="form-input"
               />
-              <input type="tel" placeholder="Phone Number" class="form-input" />
-              <textarea placeholder="Message" class="form-input"></textarea>
 
+              <p class="contacts-form-text">Message</p>
+              <textarea
+                placeholder="Leave us a description"
+                class="form-input"
+                rows="4"
+              ></textarea>
+              <div class="checkbox-container">
+                <input
+                  type="checkbox"
+                  id="customCheckbox"
+                  class="checkbox-input"
+                />
+                <label for="customCheckbox" class="contacts-form-text"
+                  >You agree to our friendly privacy police</label
+                >
+              </div>
               <button class="form-button">Send</button>
             </div>
           </div>
         </div>
+        <div class="contacts-image"></div>
       </section>
     </main>
 
